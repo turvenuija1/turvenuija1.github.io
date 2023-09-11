@@ -1,0 +1,83 @@
+body, html {
+    background:#020024;
+    background:linear-gradient(90deg,#020024,#094779 100%,#00d4ff 0);
+    overflow:none;
+    -webkit-user-select:none;
+    user-select:none;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.username {
+    color: rgb(179, 179, 179);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(19, 19, 19);
+    width: 30%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    margin-top: 10%;
+}
+
+span {
+    display: block;
+    height: 2px;
+    background-color: rgb(184, 184, 184);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pfp {
+    text-align: center;
+}
+
+.pfp {
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.sigma-grindset {
+    text-align: center;
+    color: rgb(224, 224, 224);
+    font-family: sans-serif;
+}
+
+.discord {
+    background-color: #5865F2;
+}
+
+.github {
+    background-color: #2b2b2b;
+}
+
+.steam {
+    background-color: #0f2980;
+}
+
+button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    height: 10%;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#success {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
