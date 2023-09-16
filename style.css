@@ -22,11 +22,12 @@ h1 {
 .container {
     background-color: rgb(19, 19, 19);
     width: 30%;
-    height: 45%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
     margin-top: 10%;
+    
 }
 
 span {
@@ -66,14 +67,24 @@ span {
 }
 
 button {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1%;
     margin-bottom: 1%;
     cursor: pointer;
-    height: 10%;
-    width: 50%;
+    width: 100%;
+    height: 5em;
     border: none;
     border-radius: 8px;
     text-align: center;
+    
+}
+
+.btn-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
 }
 
 #success {
