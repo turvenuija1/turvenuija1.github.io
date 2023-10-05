@@ -9,5 +9,5 @@ function github() {
 }
 
 function steam() {
-    window.location.href = "https://steamcommunity.com/id/musta_neekeri/";
+    window.location.href = "https://steamcommunity.com/id/trvnj/";
 }
