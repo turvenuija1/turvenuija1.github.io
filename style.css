@@ -1,6 +1,6 @@
 body, html {
-    background:#020024;
-    background:linear-gradient(90deg,#020024,#094779 100%,#00d4ff 0);
+    background-color: #000000;
+    background-image: url("bg.jpg");
     overflow:none;
     -webkit-user-select:none;
     user-select:none;
