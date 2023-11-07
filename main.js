@@ -5,5 +5,5 @@ function discord() {
 }
 
 function steam() {
-    window.location.href = "https://steamcommunity.com/id/trvnj/";
+    window.open("https://steamcommunity.com/id/trvnj/");
 }
