@@ -5,6 +5,9 @@ body, html {
     -webkit-user-select:none;
     user-select:none;
     text-align: center;
+    margin: 0;
+    background-repeat: none;
+    background-size: cover;
 }
 
 h1 {
