@@ -10,6 +10,9 @@ body, html {
     background-size: cover;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -31,8 +34,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
-    margin-top: 10%;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 span {
@@ -74,11 +76,11 @@ span {
 button {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
     cursor: pointer;
     width: 100%;
-    height: 5em;
+    height: 6em;
     border: none;
     border-radius: 8px;
     text-align: center;
@@ -86,7 +88,7 @@ button {
 }
 
 .btn-container {
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0px;
