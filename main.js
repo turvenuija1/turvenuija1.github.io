@@ -1,7 +1,9 @@
 function discord() {
-    const name = "trvnj";
-    navigator.clipboard.writeText(name);
-    document.getElementById("success").innerText = "Name copied to clipboard.";
+    navigator.clipboard.writeText("trvnj");
+    $("#notification").show();
+    $(".x").click(function() {
+        $("#notification").hide();
+    })
 }
 
 function steam() {
