@@ -1,6 +1,6 @@
 body, html {
     background-color: #000000;
-    background-image: url("bg.jpg");
+    background: url("background.svg");
     overflow:none;
     -webkit-user-select:none;
     user-select:none;
