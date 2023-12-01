@@ -1,32 +1,34 @@
 <html>
     <head>
-        <title>trvnj</title>
+        <!-- bio site by @trvnj -->
+        <title>@trvnj</title>
+        <link rel="stylesheet" href="/style.css">
         <link rel="icon" type="image/x-icon" href="blobfish.jpg">
-        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     </head>
     <body>
-        <div id="notification" style="display: none">Username copied to clipboard.&nbsp;&nbsp;<div class="x">X</div></div>
-        <div class="f">
-        <div class="container">
-            <div class="pfp">
-                <img class="pfp" src="profile.jpg" width="128" height="128">
-            </div>
-            <h1>what</h1>
-            <p class="username">@trvnj</p>
-            <span></span>
-            <p class="sigma-grindset">software developer &middot; javascript &middot; c++ &middot; java &middot; python &middot; php</p>
-            <div class="btn-container">
-                <button class="discord" onclick="discord()"><img src="dc.png" width="35" height="30"></button>
-                <button class="steam" onclick="steam()"><img src="steam.png" width="75" height="55"></button>
-            </div>
+        <div class="notificontainer">
+            <div id="notification" style="display: none;">Username copied to clipboard.&nbsp;&nbsp;<div id="x"><i class="bi bi-x-square"></i></div></div>
         </div>
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <img class="pfp" src="profile.jpg">
+                    <p class="displayname">what</p>
+                    <p class="username">@trvnj</p>
+                    <span></span>
+                    <p class="description">self-taught software developer</p>
+                    <div class="btncontainer">
+                        <button id="discord"><i class="bi bi-discord"></i></button>
+                        <button id="steam"><i class="bi bi-steam"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
     <script src="main.js"></script>
 </html>
-
-
