@@ -1,119 +1,121 @@
+/* bio site by @trvnj */
+
 body, html {
-    background-color: #000000;
-    background: url("background.svg");
-    overflow:none;
-    -webkit-user-select:none;
-    user-select:none;
-    text-align: center;
+    background-image: url("/bg.png");
+    /* Background image by Tyler Lastovich: https://unsplash.com/photos/snow-covered-mountain-during-nighttime-ddLiNMqWAOM */
+    background-color: #000;
+    background-position: center;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-.f {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-.username {
-    color: rgb(179, 179, 179);
-    font-family: sans-serif;
-    text-align: center;
+    user-select: none;
+    overflow: hidden;
 }
 
 .container {
-    background-color: rgb(19, 19, 19);
-    width: 30%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: rgba(14, 14, 14, 0.856);
+    width: 25rem;
+    height: 33rem;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+}
+
+.pfp {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.center {
     margin-left: auto;
     margin-right: auto;
-    border-radius: 16px;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.displayname {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.username {
+    font-size: 18px;
+    color: #b6b6b6;
+    margin-top: -1rem;
 }
 
 span {
     display: block;
-    height: 2px;
-    background-color: rgb(184, 184, 184);
-    width: 80%;
+    border: 1px solid #fff;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.pfp {
-    text-align: center;
+.description {
+    font-size: 18px;
 }
 
-.pfp {
-    margin-top: 5%;
-    border-radius: 50%;
-}
-
-.sigma-grindset {
-    text-align: center;
-    color: rgb(224, 224, 224);
-    font-family: sans-serif;
-}
-
-.discord {
-    background-color: #5865F2;
-}
-
-.github {
-    background-color: #2b2b2b;
-}
-
-.steam {
-    background-color: #0f2980;
+.btncontainer {
+    width: 100%;
+    height: 12rem;
 }
 
 button {
+    width: 95%;
+    height: 45%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.432);
+    cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 1%;
-    cursor: pointer;
-    width: 100%;
-    height: 6em;
-    border: none;
-    border-radius: 8px;
-    text-align: center;
-    
+    transition-duration: 0.3s;
 }
 
-.btn-container {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0px;
+button:hover {
+    background-color: rgba(51, 51, 51, 0.301);
+    transition-duration: 0.3s;
+}
+
+i {
+    color: #fff;
+    font-size: 35px;
 }
 
 #notification {
-    background-color: #424242;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    border-radius: 8px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20em;
-    height: 4em;
+    background-color: rgb(17, 172, 17);
+    width: 15rem;
+    padding: 20px 20px;
+    border-radius: 8px;
     position: fixed;
-    margin: 10px 10px;
+    margin: 1%;
+    
 }
 
-.x {
-    border: 2px solid #fff;
+.notificontainer {
+    display: flex;
+    justify-content: right;
+}
+
+#x {
     cursor: pointer;
 }
+
+/* bio site by @trvnj */
