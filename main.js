@@ -1,11 +1,16 @@
-function discord() {
-    navigator.clipboard.writeText("trvnj");
-    $("#notification").show();
-    $(".x").click(function() {
-        $("#notification").hide();
-    })
-}
+// bio site by @trvnj
 
-function steam() {
+$("#discord").click(function (){
+    navigator.clipboard.writeText("trvnj");
+    $("#notification").fadeIn();
+})
+
+$("#x").click(function() {
+    $("#notification").fadeOut();
+})
+
+$("#steam").click(function() {
     window.open("https://steamcommunity.com/id/trvnj/");
-}
+})
+
+// bio site by @trvnj
